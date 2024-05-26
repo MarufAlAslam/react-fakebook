@@ -5,7 +5,7 @@ import { RiLayoutGrid2Fill } from 'react-icons/ri'
 
 const Header = () => {
     return (
-        <header className='py-3'>
+        <header className='py-3 border-b sticky top-0 bg-white z-20 shadow-sm'>
             <div className="container">
                 <div className="flex justify-between items-center gap-2">
                     <a href="./" className='text-2xl font-bold'>
