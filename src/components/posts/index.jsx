@@ -15,7 +15,7 @@ const Posts = () => {
             .then(data => setUsers(data))
     }, [])
     return (
-        <div className='posts py-14'>
+        <div className='posts md:py-14 py-6'>
             <div className="max-w-4xl mx-auto">
                 <div className="grid grid-cols-1 gap-10">
                     {

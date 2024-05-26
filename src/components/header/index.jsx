@@ -17,17 +17,17 @@ const Header = () => {
                         </span>
                     </a>
 
-                    <div className="flex justify-end items-center gap-4">
-                        <a href="./" className='text-gray-700 hover:text-gray-900 avatar w-[50px] h-[50px] inline-flex rounded-full text-xl justify-center items-center'>
+                    <div className="flex justify-end items-center md:gap-4 gap-4">
+                        <a href="./" className='text-gray-700 hover:text-gray-900 avatar md:w-[50px] md:h-[50px] inline-flex rounded-full md:text-xl justify-center items-center'>
                             <RiLayoutGrid2Fill />
                         </a>
-                        <a href="./" className='text-gray-700 hover:text-gray-900 avatar w-[50px] h-[50px] inline-flex rounded-full text-xl justify-center items-center'>
+                        <a href="./" className='text-gray-700 hover:text-gray-900 avatar md:w-[50px] md:h-[50px] inline-flex rounded-full md:text-xl justify-center items-center'>
                             <FaSignalMessenger />
                         </a>
-                        <a href="./" className='text-gray-700 hover:text-gray-900 avatar w-[50px] h-[50px] inline-flex rounded-full text-xl justify-center items-center'>
+                        <a href="./" className='text-gray-700 hover:text-gray-900 avatar md:w-[50px] md:h-[50px] inline-flex rounded-full md:text-xl justify-center items-center'>
                             <FaBell />
                         </a>
-                        <a href="./" className='text-gray-700 hover:text-gray-900 avatar bg-gray-200 w-[50px] h-[50px] inline-flex rounded-full text-xl justify-center items-center'>
+                        <a href="./" className='text-gray-700 hover:text-gray-900 avatar md:bg-gray-200 md:w-[50px] md:h-[50px] inline-flex rounded-full md:text-xl justify-center items-center'>
                             <FaUser />
                         </a>
                     </div>
